@@ -1,0 +1,30 @@
+{
+    "name": "ganisda/e-sertifikat",
+    "autoload": {
+        "psr-4": {
+            "App\\Controller\\": "src/App/Controller",
+            "App\\Middleware\\" : "src/App/Middleware",
+            "App\\Renderer\\" : "src/App/Renderer"
+        }
+    },
+    "authors": [
+        {
+            "name": "Muhamad Rizal Arfiyan",
+            "email": "rizal.arfiyan.23@gmail.com",
+            "homepage": "https://github.com/rizalarfiyan"
+        },
+        {
+            "name": "Muhammad iqbal",
+            "email": "muh.iqbalg1@gmail.com",
+            "homepage": "https://github.com/xmod3905"
+        }
+    ],
+    "require": {
+        "slim/slim": "^4.10",
+        "slim/psr7": "^1.5",
+        "slim/twig-view": "^3.3",
+        "slim/flash": "^0.4.0",
+        "monolog/monolog": "^2.5",
+        "php-di/php-di": "^6.4"
+    }
+}
